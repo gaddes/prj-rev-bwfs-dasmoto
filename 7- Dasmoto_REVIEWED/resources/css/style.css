@@ -1,0 +1,39 @@
+/* CSS Notes */
+  /* CSS Note 1 - We always end with a generic family name (in this case, sans-serif) as this tells the browser pick a similar font in the generic family, if no other fonts are available. */
+  /* CSS Note 2 - We do not actually have to specify the font-weight here, because the <strong> HTML tag does this for us. However, if we want to change this later on (see HTML Note 2) it will be beneficial to specify font-weight here. */
+
+/* Change font family for ALL text to Helvetica. */
+* {
+  font-family: Helvetica, sans-serif; /* (see Note 1) */
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+strong {
+  font-weight: bold; /* (see Note 2) */
+  color: blue;
+}
+
+.green_background {
+  background-color: mediumspringgreen;
+}
+
+.red_background {
+  background-color: lightcoral;
+}
+
+.blue_background {
+  background-color: skyblue;
+}
